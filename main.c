@@ -4,9 +4,11 @@
 int main()
 {
     int a = 10;
-    int b = 05;
+    double b = 805.0;
     double sum;
-    sum = (double)a + (double)b/100.0;
+    while(b>1)
+        b = b/10.0;
+    sum = (double)a+ b;
     printf("%f\n", sum);
     return 0;
 }
