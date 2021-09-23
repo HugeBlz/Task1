@@ -3,12 +3,13 @@
 
 int main()
 {
-    int a = 10;
-    double b = 805.0;
+    int a, b;
+    scanf("%d %d", &a, &b);
+    double c = b;
     double sum;
-    while(b>1)
-        b = b/10.0;
-    sum = (double)a+ b;
+    while(c>1)
+        c = c/10.0;
+    sum = (double)a+ c;
     printf("%f\n", sum);
     return 0;
 }
